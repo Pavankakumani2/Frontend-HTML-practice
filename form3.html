@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Form</title>
+</head>
+<body>
+    <h2>Complex Form</h2>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <label for="phone">Phone</label>
+        <input type="tel" name="phone" id="phone">
+        <label for="DOB">Date Of Birth</label>
+        <input type="date" name="dob" id="DOB">
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="male">
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" id="fmale">
+        <label for="fmale">Country</label>
+        <select name="country" id="country">
+            <option value="1">India</option>
+            <option value="2">US</option>
+            <option value="3">UK</option>
+            <option value="4">China</option>
+            <option value="5">France</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>
+            Address
+        </legend>
+        <label for="street">Street</label>
+        <input type="text" name="street" id="street">
+        <label for="city">City</label>
+        <input type="text" name="city" id="city">
+        <label for="state">State</label>
+        <input type="text" name="state" id="state">
+        <label for="zc">Zipcode</label>
+        <input type="text" name="zipcode" id="zc">
+    </fieldset>
+    <fieldset>
+        <legend>Other Information</legend>
+        <label for="cms">Comments</label>
+        <textarea name="cms" id="cms" rows="5" cols="50"></textarea>
+        <label for="cb">I agree to the terms of service</label>
+        <input type="checkbox" name="checkbox" id="cb">
+    </fieldset>
+    <input type="submit" name="submit" id="submit">
+</body>
+</html>
